@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+}
+
+.list {
+  width: 23%;
+  float: left;
+  border: 1px solid #000;
+  padding-bottom: 15px;
+  margin: 10px 0;
+}
+.list:not(:first-child) {
+  margin-left: 2%;
+}
+
+.list h3 {
+  text-align: center;
+  margin: 0 0 15px 0;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+}
+.list h3:hover {
+  color: red;
+}
+
+.list.drag-over {
+  border: 1px dashed red;
+}
+
+.card {
+  border: 1px solid green;
+  margin: 5px;
+  padding: 10px;
+}
